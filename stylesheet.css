@@ -1,0 +1,151 @@
+* {
+    font-family: Manrope;
+}
+
+body {
+    margin-top: 10px;
+    background-color: #FAFAFA;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 17px;
+}
+
+/*header*/
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+/*header*/
+
+/*section intro*/
+.intro {
+    background-color: #137160;
+    padding: 70px 30px 10px 30px;
+    color: white;
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.intro img {
+    width: 80%;
+    border-radius: 15px;
+}
+
+h2 {
+    font-weight: lighter;
+}
+
+.intro article {
+    margin-top: 70px;
+}
+/*section intro*/
+
+/*section concepts clés*/
+.concepts {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 70px;
+}
+
+.concepts-articles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+}
+
+.concepts-articles article {
+    display: block;
+    background-color: #FFFFFF;
+    width: 45%;
+    padding-left: 15px;
+    border-radius: 15px;
+}
+
+.concepts-articles ul {
+    list-style: circle;
+    padding-left: 15px;
+}
+/*concepts clés*/
+
+/*langages*/
+.langages {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 70px;
+}
+
+.langages-article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.langages-article article {
+    display: block;
+    background-color: #FFFFFF;
+    width: 20%;
+    border-radius: 15px;
+}
+
+.langages-article ul, p {
+    list-style: none;
+    padding-left: 15px;
+}
+
+.titre-article {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    gap: 10px;
+}
+
+.titre-article img {
+    
+}
+/*langages*/
+
+/*footer*/
+footer {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+footer ul {
+    background-color:#FFFFFF;
+    border-radius: 15px;
+}
+/*footer*/
+
+
+/*espaces entre les boites flexbox des concepts et langages ?
+remettre les catégories ensemble pour gagner de la place, css pareils pour les sections
+garder les logos ronds*/
