@@ -64,6 +64,16 @@ h2 {
 .intro article {
     margin-top: 70px;
 }
+
+.intro a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.intro a:hover {
+    font-weight: bolder;
+}
 /*section intro*/
 
 /*section concepts clés*/
@@ -139,13 +149,40 @@ footer {
     padding-right: 30px;
 }
 
-footer ul {
+footer ul, p {
     background-color:#FFFFFF;
     border-radius: 15px;
 }
 /*footer*/
 
+/*contact form*/
+.contact-form input, textarea {
+    width: 40%;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #FAFAFA;
+    font-size: larger;
+}
+
+.contact-form textarea {
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    padding: 7px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #FAFAFA;
+}
 
 /*espaces entre les boites flexbox des concepts et langages ?
 remettre les catégories ensemble pour gagner de la place, css pareils pour les sections
-garder les logos ronds*/
+garder les logos ronds
+rajouter responsive*/
