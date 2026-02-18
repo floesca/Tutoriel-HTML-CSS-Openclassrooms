@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Tutoriel HTML Et CSS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+
+  <body>
+    <header>
+       <img src="images/Avatar du site.png" alt="avatar">
+       <nav>
+            <a href="#">A propos</a>
+            <a href="index.html">Bases du web</a>
+            <a href="#">Plan d'apprentissage</a>
+            <a href="#">Projets</a>
+            <a href="#">Blog</a>
+            <a href="contact.html">Contact</a>
+       </nav>
+    </header>
+
+    <section class="intro">
+        <h1>Nous contacter</h1>
+        <h2>N'hésitez pas à nous envoyer un message pour tout renseignements !</h2>
+        <div class="contact-form">
+            <form method="post" action="">
+                <label for="prenom">Prénom</label> : <input type="text" name="prenom" id="prenom">
+                <label for="nom">Nom</label> : <input type="text" name="nom" id="nom">
+                <label for="email">Email</label> : <input type="email" name="email" id="email">
+                <label for="message">Votre message</label> : <textarea name="message" id="message"></textarea>
+                <input type="submit" value="Envoyer">
+            </form> 
+        </div>
+    </section>
+
+    <footer>
+        <h3>Attention !</h3>
+        <p>Ce site a été créée par moi sur la base d'un tutoriel Openclassrooms pour apprendre
+            les bases de code HTML et CSS. Les pages de ce site sont inventées et ne reflètent en 
+            aucun cas la réalité. Ce site n'a aucun lien avec Openclassrooms.
+        </p>
+    </footer>
+
+  </body>
+
+</html>
