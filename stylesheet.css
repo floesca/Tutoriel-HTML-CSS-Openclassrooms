@@ -15,6 +15,12 @@ h4 {
     font-size: 17px;
 }
 
+h5 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
 /*header*/
 header {
     display: flex;
@@ -104,6 +110,33 @@ h2 {
     list-style: circle;
     padding-left: 15px;
 }
+
+.title-definition {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: fit-content;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.title-definition img {
+    height: 20px;
+}
+
+.title-definition h5 {
+    margin: 0;
+}
+
+.concepts-definition p {
+    display: none;
+}
+
+/*css supplémentaire pour JS*/
+.open .content-definition {
+    display: block;
+}
+
 /*concepts clés*/
 
 /*langages*/
@@ -138,9 +171,7 @@ h2 {
     gap: 10px;
 }
 
-.titre-article img {
-    
-}
+
 /*langages*/
 
 /*footer*/
